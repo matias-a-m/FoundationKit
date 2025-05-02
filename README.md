@@ -1,33 +1,34 @@
 # FoundationKit
 
-Framework de utilidades compartidas, extensiones y lógica común.
+Framework de utilidades compartidas, extensiones y lógica común.  
+Complementa a `SecurityKit` proveyendo validaciones, helpers y formato de datos seguro.
 
 ---
 
 ## Propósito
 
-Centralizar herramientas auxiliares para evitar duplicación de lógica transversal.
+Centralizar herramientas auxiliares para evitar duplicación de lógica transversal y apoyar operaciones seguras y robustas.
 
 ---
 
 ## Contenido
 
-- Extensiones de tipos estándar (Date, String, etc.)
-- Validadores, formateadores, helpers
-- Manejadores de errores, constantes y recursos compartidos
-- Observadores y utilidades de debug
+- Extensiones de tipos estándar (Date, String, Optional, etc.)
+- Validadores de entrada reutilizables
+- Formateadores y helpers para manipulación segura
+- Manejadores de errores y recursos compartidos
 
 ---
 
 ## Ejemplo
 
 ```swift
+let isValid = "correo@example.com".isValidEmail()
 let formatted = "2025-05-01".asDate()?.formatted()
 ```
 
 ---
 
-## Filosofía
+## Integración con Seguridad
 
-- Zero-dependency
-- Modular, reusable, simple
+`FoundationKit` se complementa con `SecurityKit` al asegurar consistencia en datos, validaciones seguras y formato previo a operaciones criptográficas.
