@@ -6,7 +6,7 @@
 
 ---
 
-## ✳️ Propósito
+## Propósito
 
 - Unificar la lógica transversal en un solo punto.
 - Reducir duplicación de código en proyectos y frameworks.
@@ -15,7 +15,7 @@
 
 ---
 
-## 📦 Contenido
+## Contenido
 
 - **Extensiones de tipo**: para `String`, `Date`, `URL`, etc.
 - **Validadores**: campos de entrada, formatos, límites lógicos.
@@ -25,7 +25,7 @@
 
 ---
 
-## 🧪 Enfoque de pruebas
+## Enfoque de pruebas
 
 Desde el diseño, `FoundationKit` incluye pruebas automáticas para asegurar estabilidad y confianza en su uso:
 
@@ -49,7 +49,7 @@ func testEmailValidator_WhenValidEmail_ReturnsTrue() {
 
 ---
 
-## 📁 Estructura del módulo
+## Estructura del módulo
 
 ```
 FoundationKit/
@@ -68,7 +68,7 @@ FoundationKit/
 
 ---
 
-## 🔗 Integración en el sistema
+## Integración en el sistema
 
 `FoundationKit` es consumido por los siguientes frameworks y módulos:
 
@@ -82,7 +82,7 @@ FoundationKit/
 
 ---
 
-## ✅ Requisitos
+## Requisitos
 
 - iOS 14+
 - Swift 5.8+
@@ -90,6 +90,7 @@ FoundationKit/
 
 ---
 
-##  Licencia
+## Licencia
 
 MIT © [Matías Adrián Molina](mailto:matias.a.molina87@icloud.com)
+
