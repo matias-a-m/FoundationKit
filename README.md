@@ -92,5 +92,5 @@ FoundationKit/
 
 ## Licencia
 
-MIT © [Matías Adrián Molina](mailto:matias.a.molina87@icloud.com)
+MIT © Matías Adrián Molina
 
