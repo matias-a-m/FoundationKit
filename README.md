@@ -81,13 +81,3 @@ Incluye pruebas unitarias con `XCTest`:
 
 ---
 
-## Visión
-
-Este framework se construye como base técnica sostenible para apps iOS que priorizan:
-- claridad en el diseño de código,
-- escalabilidad modular,
-- y experiencia de usuario nativa con foco en producto.
-
-Forma parte del ecosistema modular de [Matías A. Molina](https://matias-a-m.github.io/site/index.html)
-
----
