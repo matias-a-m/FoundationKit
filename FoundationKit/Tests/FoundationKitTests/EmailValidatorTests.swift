@@ -8,5 +8,9 @@ final class EmailValidatorTests: XCTestCase {
 
     func testInvalidEmail_returnsFalse() {
         XCTAssertFalse(EmailValidator.isValid("invalid-email"))
+        XCTAssertFalse(EmailValidator.isValid("user@.com"))
+        XCTAssertFalse(EmailValidator.isValid("@example.com"))
+        XCTAssertFalse(EmailValidator.isValid("user@@example.com"))
+        XCTAssertFalse(EmailValidator.isValid(""))
     }
 }
